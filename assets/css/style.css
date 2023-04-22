@@ -21,9 +21,28 @@
     background-color: #525252;
 }
 
+/*---------------------------------------------------Special paddings/margins/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color:#fafafa;
+}
+
+
 /*---------------------------------------------------Heading*/
-header{
-    margin:0;
+header {
+    margin: 0;
 }
 
 .heading {
@@ -39,18 +58,18 @@ header{
     background-size: cover;
     /*All three layouts on this line will have a relationship of 360px*/
     min-height: 360px;
-    transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     /* To ensure animation works on all browers*/
-    -moz-transition:all .5s ease-in-out;
-    -webkit-transition:all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
-    font-size:46px;
+    font-size: 46px;
     margin-top: 50px;
-    color:#fff;
+    color: #fff;
 }
 
 .title {
@@ -59,34 +78,37 @@ header{
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color:#fff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
-    margin:0;
+    margin: 0;
 }
+
 .menucontainer {
     font-size: 0;
 }
 
 #nav {
-    margin:0;
+    margin: 0;
 }
+
 #nav li {
     font-size: 14px;
-    padding:0;
+    padding: 0;
 }
+
 .menuitem {
-    height:120px;
+    height: 120px;
     text-align: center;
-    padding:0;
+    padding: 0;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height:120px;
+    height: 120px;
 }
 
 .menuitem a i {
@@ -103,7 +125,7 @@ header{
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -111,6 +133,14 @@ header{
 /*---------------------------------------------------Hover.CSS*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+/*---------------------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color:#fafafa;
+    min-height: 120px;
+    margin:0;
 }
